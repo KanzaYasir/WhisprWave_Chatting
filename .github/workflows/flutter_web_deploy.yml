@@ -17,9 +17,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.32.4'
-
-          channel: 'beta'
-
+          channel: 'stable'   # Use stable channel unless you need beta features
 
       - name: Install dependencies
         run: flutter pub get
